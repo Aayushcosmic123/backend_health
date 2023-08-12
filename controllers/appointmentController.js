@@ -41,7 +41,7 @@ const bookappointment = async (req, res) => {
 
     const doctornotification = Notification({
       userId: req.body.doctorId,
-      content: `Client has sent a message for you: ${req.body.prb}`,
+      content: `Client message: ${req.body.prb}`,
      
     });
 
